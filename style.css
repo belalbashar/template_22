@@ -1,0 +1,240 @@
+
+.header-menu ul li a{
+    padding: 0 15px !important;
+    font-size: 18px;
+}
+.header-menu ul li ul li a {
+	line-height: 35px;
+}
+
+.banner{
+    background-color: #f9f9ff;
+}
+.banner-text{
+    padding: 150px 0;
+}
+.banner-text h5{}
+.banner-text h1 {
+	font-size: 50px;
+	font-weight: 600;
+	padding: 12px 0;
+}
+.banner-text p{
+    font-size: 19px ;
+}
+
+.btn-pro{
+    display: inline-block;
+    background-color:#8392fd;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+    border-radius: 6px;
+    margin-top: 15px;
+	border: 2px solid transparent;
+}
+.btn-pro:hover{
+    background-color: transparent;
+    color: #8392fd;
+	border: 2px solid #8392fd;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.26);
+}
+.ab-text p{
+	font-size: 19px;
+}
+.ab-text h1{
+	font-weight: 600;
+	font-size: 40px;
+	padding: 10px 0;
+}
+
+/* Score */
+
+.score {
+	background-color: #8490ff;
+	padding: 60px 0;
+}
+.score-content {
+	padding-top: 27px;
+	text-align: center;
+}
+.score-content h1 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+}
+.score-content p{
+    color: #fff;
+}
+
+/* Service */
+
+.service{
+    background-color: #f6f6ff;
+}
+.service-title h2 {
+	font-size: 38px;
+	font-weight: 600;
+}
+.service-title p{}
+
+.service-box {
+	background-color: #fff;
+	padding: 15px 20px;
+	border-radius: 5px;
+    box-shadow: 1px 2px 28px #dcd9f2ab;
+	margin: 0 5px;
+}
+.service-box h1 {
+	background: #eef;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+
+	font-size: 35px;
+}
+.service-box h5 {
+	font-size: 21px;
+	font-weight: 500;
+	padding: 10px 0;
+	color: rgb(42, 42, 42);
+}
+.service-box p {
+	font-size: 20px;
+	color: #676767;
+	padding: 9px 0;
+}
+.service-box a {
+	text-decoration: none;
+	color: #8490ff;
+	background: #fff;
+	border: 1px solid #8490ff;
+	padding: 12px 26px;
+	display: inline-block;
+	border-radius: 6px;
+	margin: 22px 0;
+	font-weight: 600;
+    transition: .5s;
+}
+
+.service-box:hover a{
+	background-color: #5f72ff;
+    color: #fff;
+}
+.service-box a:hover{
+	background-color: #000;
+    border: 1px solid transparent;
+	color: #fff;
+}
+
+
+/* Team section */
+
+.team-box{
+}
+.team-box img {
+	width: 100px;
+	position: relative;
+	top: -40px;
+	left: -88px;
+}
+.team-box h2 {
+	font-size: 23px;
+	font-weight: 600;
+}
+.team-box p {
+	padding: 0 17px;
+    padding-bottom: 5px;
+}
+.team-box a {
+	text-decoration: none;
+	display: inline-block;
+	color: #000;
+	background: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 6px;
+	margin: 10px 0;
+    margin-bottom: 26px;
+	transition: .4s;
+}
+.team-box a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+/* ................
+   Contact Form
+................... */
+
+.contact{
+    background-color: #f9f9ff;
+}
+.contact-title h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #000000bf;
+}
+.contact-title h1 {
+	font-weight: 600;
+	font-size: 36px;
+	color: #000000d6;
+}
+.contact-form {
+	background-color: #fff;
+	padding: 50px;
+	box-shadow: 1px 2px 28px #dcd9f2ab;
+}
+.contact-form h3 {
+	padding-bottom: 36px;
+	font-weight: 600;
+	font-size: 23px;
+	color: rgb(92, 92, 92);
+}
+
+.w50{
+    width: 48%;
+}
+.d-input{
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 216);
+    font-size: 19px;
+    border-radius: 6px;
+    margin-bottom: 23px;
+
+}
+.form-btn {
+	background: #17a2b8;
+	border: none;
+	margin-top: 25px;
+	padding: 10px 22px;
+	color: #fff;
+	border-radius: 6px;
+	font-size: 18px;
+    transition: .4s;
+}
+.form-btn:hover{
+    background-color: #026d7e;
+}
+.address {
+	padding: 84px 11px;
+}
+.address h2 {
+	font-size: 24px;
+	font-weight: 600;
+	color: rgb(58, 58, 58);
+}
+.address ul {
+	list-style: none;
+	margin-left: -30px;
+}
+.address ul li {
+	font-size: 18px;
+	color: #242424bf;
+	font-weight: 600;
+	line-height: 40px;
+}
